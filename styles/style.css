@@ -1,1 +1,353 @@
-/* место для вашего кода */
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    width: 1440px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1340px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 79px 0 105px;
+    align-items: center;
+    height: 109px;
+    padding-bottom: 105px;
+}
+
+.header__menu {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 388px;
+    height: 23px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.header__menu_link {
+    list-style: circle;
+    text-decoration: underline;
+}
+
+.header__menu_link:first-child {
+    list-style: none;
+    text-decoration: none;
+}
+
+.header__contacts {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.3px;
+    width: 240px;
+    height: 97px;
+}
+
+/*jambotron */
+.jambotron {
+    background: url("../images/lotus-flower.png") center;
+    background-size: cover;
+}
+
+.jambotron__title {
+    color: #fff;
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.jambotron__description {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.jambotron__description-text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 100%;
+    word-spacing: 17.5px;
+    text-transform: uppercase;
+    padding-right: 78px;
+    color: #fff;
+}
+
+
+.overplay {
+    padding: 165px 50px 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.jambotron__aligned-text_left {
+    text-align: left;
+}
+
+.jambotron__aligned-text_center {
+    text-align: center;
+}
+
+.jambotron__aligned-text_right {
+    text-align: right;
+}
+
+.jambotron__button {
+    padding: 0;
+    border-color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.jambotron__button_text {
+
+    padding: 12px 33px;
+    width: 193px;
+    height: 28px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+/*loots*/
+.section__lots {
+    height: 579px;
+    padding-top: 180px;
+}
+
+.lots__title {
+    color: #000;
+    padding-bottom: 27px;
+    padding-left: 40px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.loots__item {
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+}
+
+.lots__items {
+    width: 430px;
+}
+
+.lots__item-1 {
+    background-image: url(../images/photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+.lots__overplay {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.lots__item-2 {
+    background-image: url(../images/photo-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+.lots__item-3 {
+    background-image: url(../images/photo-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+.lots__link {
+    padding-top: 30px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: underline;
+    padding-left: 40px;
+}
+
+.lots__item_title {
+    width: 350px;
+    padding: 50px 40px 0;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 26.4px */
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.lots__item_subtitle1 {
+    width: 350px;
+    padding: 202px 40px 50px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 24px */
+}
+
+.lots__item_subtitle2 {
+    width: 350px;
+    padding: 30px 40px 50px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 24px */
+}
+
+.lots__item_subtitle3 {
+    width: 350px;
+    padding: 84px 40px 50px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 24px */
+}
+
+/*abaout*/
+.section__abaout {
+    padding-top: 181px;
+}
+
+.abaout {
+    display: flex;
+    justify-content: space-between;
+    height: 487px;
+}
+
+.abaout__logo-column {
+    width: 430px;
+    height: 240px;
+}
+
+.about-column {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 885px;
+    height: 388px;
+}
+
+.abaout__title {
+    padding-top: 100px;
+    color: #000;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.abaout__description {
+    color: #000;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 100px;
+}
+
+.abaout__description:last-child {
+    padding-top: 25px;
+}
+
+.abaout__logo-img {
+    padding: 0 95px 0;
+}
+
+/*footer*/
+.section__footer {
+    padding: 180px 0 90px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 97px;
+}
+
+.footer__menu {
+    display: flex;
+    flex-direction: column;
+    width: 149px;
+    height: 64px;
+    align-items: center;
+}
+
+.footer__menu_link {
+    text-decoration: underline
+}
+
+.footer__menu_link:first-child {
+    text-decoration: none
+}
+
+.footer__social {
+    width: 240px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
